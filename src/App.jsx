@@ -22,9 +22,12 @@ import Account from "./components/Account.jsx";
 function App() {
   const [appearance, setAppearance] = useState("dark");
   // const apiEndpoint = "https://medalsapi.azurewebsites.net/api/country";
-  const apiEndpoint = "https://medalsapi.azurewebsites.net/jwtapi/country";
-  const hubEndpoint = "https://medalsapi.azurewebsites.net/medalsHub";
-  const userEndpoint = "https://jwtswagger.azurewebsites.net/api/user/login";
+  const apiEndpoint =
+    "https://products-ckh-h8gsb8eegdcagfgn.northcentralus-01.azurewebsites.net/jwtapi/country";
+  const hubEndpoint =
+    "https://products-ckh-h8gsb8eegdcagfgn.northcentralus-01.azurewebsites.net/medalsHub";
+  const userEndpoint =
+    "https://products-ckh-h8gsb8eegdcagfgn.northcentralus-01.azurewebsites.net/api/user/login";
   const [connection, setConnection] = useState(null);
   const [countries, setCountries] = useState([]);
   const [user, setUser] = useState({
